@@ -24,12 +24,12 @@ except:
     longdesc = ''
 
 setup(
-    name='slackbot-raspbian',
-    version='1.0.0',
-    description='Simple Slack Chatbot iRaspbian integration with jenkins, thanks to https://github.com/llimllib/limbo',
+    name='limbo',
+    version='6.4.3',
+    description='Simple and Clean Slack Chatbot',
     long_description=longdesc,
-    author='Rifki Chaplin',
-    author_email='rifkichaplin@gmail.com',
+    author='Bill Mill',
+    author_email='bill@billmill.org',
     url='https://github.com/llimllib/limbo',
     packages=packages,
     scripts=['bin/limbo'],
@@ -48,5 +48,5 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: Implementation :: PyPy',
     ],
-    keywords="slackbot slack chatbot chat raspbian raspberry",
+    keywords="slack chatbot chat limbo",
 )

@@ -21,7 +21,9 @@ def on_message(msg, server):
         "Hello",
         "Hi there",
         "where are you",
-        "are you there"
+        "are you there",
+        "I'm hungry"
+
     ]
     botanswer = [
         "Yes, I'm here boss.., Could I help you?",
@@ -37,7 +39,8 @@ def on_message(msg, server):
         "Awesome",
         "Great",
         "Cool",
-        "Amazing"
+        "Amazing",
+        "Thank you"
     ]
     botanswer = [
         "Your welcome boss.. :)",

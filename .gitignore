@@ -2,3 +2,4 @@
 limbo.sqlite3
 *.pyc
 *.egg-info
+*.env
